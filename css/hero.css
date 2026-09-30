@@ -1,7 +1,15 @@
 .hero {
+    max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+    background:  linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
@@ -34,9 +42,27 @@
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
+    transition: background-color 250ms ;
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
+}
+.icon-hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+}
+.icon-hero-img{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+   
 }
