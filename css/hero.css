@@ -48,7 +48,7 @@
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
-  transition: background-color 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -59,7 +59,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   height: 112px;

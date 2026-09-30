@@ -51,7 +51,7 @@
   height: 40px;
   background-color: #4d5ae5;
   color: #f4f4fd;
-  transition: background-color 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icons .link:focus {
   background-color: #404bbf;

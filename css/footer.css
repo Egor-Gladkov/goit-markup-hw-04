@@ -7,7 +7,6 @@
 .footer-dump {
   display: flex;
   align-items: flex-start;
-  gap: 120px;
 }
 
 .footer-logo {
@@ -64,7 +63,7 @@
 .footer-left {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
 }
 .footer-text {
   margin: 0;
@@ -76,7 +75,7 @@
 }
 .footer-social {
   display: flex;
-
+  padding-left: 120px;
   flex-direction: column;
   gap: 16px;
 }
@@ -93,6 +92,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  gap: 16px;
 }
 .footer-icon .linki {
   display: flex;
@@ -109,7 +109,7 @@
   fill: #f4f4fd;
 }
 
-.footer-icon .linki:hover,
-.footer-icon .linki:focus-visible .footer-icon .linki:focus {
+.footer-icon .linki:hover:focus,
+.footer-icon .linki:focus-visible .footer-icon .linki {
   background-color: #31d0aa;
 }
