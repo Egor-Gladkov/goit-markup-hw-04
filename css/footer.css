@@ -110,6 +110,6 @@
 }
 
 .footer-icon .linki:hover:focus,
-.footer-icon .linki:focus-visible .footer-icon .linki {
+.footer-icon .linki:focus-visible {
   background-color: #31d0aa;
 }
